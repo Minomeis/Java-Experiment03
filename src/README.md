@@ -22,7 +22,7 @@
 (first版本是没有修改教师为类的，final版本是修改之后，怕出差错，因此做了两个)
 
 ##五、流程图
-![]()
+![](https://github.com/Minomeis/Java-Experiment03/blob/master/img/Java%E5%AE%9E%E9%AA%8C%E4%B8%89.png)
 
 ##六、主要代码
 1.设置People父类，将属性设为私有，通过set函数给属性赋值。
@@ -137,10 +137,10 @@ public class Course {
 ```
 
 ##七、运行截图
-下面是学生选课运行截图。（教师运行没有变化，不再做展示）
-![]()
-![]()
-![]()
+&emsp;&emsp;下面是学生选课运行截图。（教师运行没有变化，不再做展示）
+![](https://github.com/Minomeis/Java-Experiment03/blob/master/img/001.jpg)
+![](https://github.com/Minomeis/Java-Experiment03/blob/master/img/002.jpg)
+![](https://github.com/Minomeis/Java-Experiment03/blob/master/img/003.jpg)
 
 ##八、感想体悟
 &emsp;&emsp;本次实验，是对上次实验做更改，在更加完善选课系统的同时，也充分理解了继承的使用，以及访问控制修饰符的用法，十分有助于我理解课上所学的内容，收获颇丰。
