@@ -10,7 +10,7 @@
 4. 测试实体类分别存放于不同的package中，验证权限访问控制、继承后续属性及方法的可见性。
 
 ## 三、实验要求
-1.提交源程序到GitHub，代码仓库命名为“实验三 继承关系”。
+1. 提交源程序到GitHub，代码仓库命名为“实验三 继承关系”。
 2. 写实验报告文件（readme.md），体现本次实验在实验二基础上的改进。
 
 ## 四、实验过程 
@@ -25,7 +25,7 @@
 ![](https://github.com/Minomeis/Java-Experiment03/blob/master/img/Java%E5%AE%9E%E9%AA%8C%E4%B8%89.png)
 
 ## 六、主要代码
-1.设置People父类，将属性设为私有，通过set函数给属性赋值。
+1. 设置People父类，将属性设为私有，通过set函数给属性赋值。
 ```java
 public class People {
     private String name;
@@ -47,7 +47,7 @@ public class People {
     }
 }
 ```
-2.通过extends关键字，继承父类，创建子类，通过super关键字，设置构造函数，给父类和子类中各属性赋值。
+2. 通过extends关键字，继承父类，创建子类，通过super关键字，设置构造函数，给父类和子类中各属性赋值。
 ```java
 public class Student extends People {
     private int age;
@@ -60,7 +60,7 @@ public class Student extends People {
     }
 }
 ```
-3.更改add_course函数，使其容错能力更强。
+3. 更改add_course函数，使其容错能力更强。
 ```java
     public void add_course(int class_id, Course[] C){
         int q = 0;
@@ -106,7 +106,7 @@ public class Student extends People {
     }
 
 ```
-4.将课组里的教师属性，更改为Teacher类的实例化对象。
+4. 将课组里的教师属性，更改为Teacher类的实例化对象。
 ```java
 public class Course {
     private int id;
@@ -137,7 +137,7 @@ public class Course {
 ```
 
 ## 七、运行截图
-&emsp;&emsp;下面是学生选课运行截图。（教师运行没有变化，不再做展示）
+&emsp;&emsp;**下面是学生选课运行截图。（教师运行没有变化，不再做展示）**
 ![](https://github.com/Minomeis/Java-Experiment03/blob/master/img/001.jpg)
 ![](https://github.com/Minomeis/Java-Experiment03/blob/master/img/002.jpg)
 ![](https://github.com/Minomeis/Java-Experiment03/blob/master/img/003.jpg)
